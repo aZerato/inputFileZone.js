@@ -10,9 +10,18 @@
 		
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('.dropzone').inputFileZone();
+				$('button[data-action="transform-dropzone"]').click(function() {
+					$('.dropzone').inputFileZone();
 
-				$('#dropzone2').inputFileZone({ message: 'My dropzone ... '});
+					$('#dropzone2').inputFileZone({ 
+						message: 'My dropzone ... ',
+						zIndex: 1,
+						previewImages: false
+					});
+
+					this.remove();
+				});
+
 			});
 		</script>
 
@@ -31,6 +40,8 @@
 		</style>
 	</head>
 	<body class="content">
+		<h1>Input to dropzone</h1>
+		<button data-action="transform-dropzone">Transform</button>
 		<h2>Test 1 - basic class.dropzone | on two input</h2>
 		<div>
 			<p>test</p>

@@ -13,8 +13,12 @@ Transform input[type="file"] to dropzone !
 How To
 ---
 
-Use files in 'lib/' (.js & .css)
+Use files in 'lib/' (inputFileZone.js & inputFileZone.css)
 
 ```
-$('.dropzone').inputFileZone(); // multiple
-$('#dropzone2').inputFileZone({ message: 'My dropzone ... '}); // only one with parameter
+$('.dropzone').inputFileZone();
+$('#dropzone2').inputFileZone({ 
+	message: 'My dropzone ... ',
+	zIndex: 1,
+	previewImages: false
+});
