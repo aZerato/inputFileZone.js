@@ -17,8 +17,11 @@ Use files in 'lib/' (inputFileZone.js & inputFileZone.css)
 
 ```
 $('.dropzone').inputFileZone();
+
 $('#dropzone2').inputFileZone({ 
 	message: 'My dropzone ... ',
+	messageFile: 'Ok',
 	zIndex: 1,
 	previewImages: false
 });
+```
