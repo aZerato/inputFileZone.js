@@ -6,7 +6,7 @@ Whut ?
 
 This plugin needs jQuery
 
-Transform input[type="file"] to dropzone !
+Transform input[type="file"] to dropzone ! (IE7 test => ok)
 
 ![inputFileZone.js](https://github.com/aZerato/inputFileZone.js/blob/master/demo.png?raw=true)
 
