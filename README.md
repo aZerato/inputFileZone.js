@@ -1,6 +1,8 @@
 inputFileZone.js
 ===
 
+> Demo : http://jp.cartoux.net/dev/inputFileZone.js-master/sample/index.html
+
 Whut ?
 ---
 
